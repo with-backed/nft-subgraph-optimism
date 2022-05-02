@@ -6,10 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: IERC721
-    network: {{name}}
+    network: optimism
     source:
       abi: IERC721
-      startBlock: {{startBlock}}
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
